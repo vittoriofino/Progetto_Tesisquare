@@ -22,12 +22,12 @@ We analyzed Tesisquare's data using Python to find business insights.
 
 ## 📂 Files
 
-- website/
-- ── 1 - index.html
-- ── 2 - style.css
-- ── 3 - script.js
-- ata/ (raw and cleaned datasets)
-- otebook.ipynb
+website/
+├── 1 - index.html
+├── 2 - style.css
+└── 3 - script.jsdata
+notebook.ipynb
+data/ (raw and cleaned datasets) 
 
 ## 🚀 How to Run
 1. Install Python + Jupyter
