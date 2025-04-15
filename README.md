@@ -24,9 +24,9 @@ We analyzed Tesisquare's data using Python to find business insights.
 
 project/  
 ├── 📁 website/  
-├── 📁 data/          # Raw/processed data  
-├── 📁 notebooks/     # Jupyter notebooks  
-└── 📁 reports/       # infographics, pdfs and maps  
+├── 📁 data/            # Raw/processed data  
+├── 📁 notebooks/       # Jupyter notebooks  
+└── 📁 reports/         # infographics, pdfs and maps  
 
 ## 🚀 How to Run
 1. Install Python + Jupyter
