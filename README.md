@@ -3,13 +3,13 @@
 **Team Project by 7 Data Science Students**
 
 ## 👥 Team Members
-1. Your Name
-2. Team Member 2
-3. Team Member 3 
-4. Team Member 4
-5. Team Member 5
-6. Team Member 6
-7. Team Member 7
+1. Vittorio Fino
+2. Luca Grosso
+3. Beatrice Risso
+4. Francesco Torterolo
+5. Lorenzo Bruno
+6. Rebecca Simondi
+7. Viola Peruzzi
 
 ## 🎯 Project Goal
 We analyzed Tesisquare's data using Python to find business insights.
@@ -22,17 +22,16 @@ We analyzed Tesisquare's data using Python to find business insights.
 
 ## 📂 Files
 
-notebooks/
-├── 1_data_cleaning.ipynb
-├── 2_analysis.ipynb
-└── 3_model.ipynb
-data/ (original & cleaned data)
-Copy
-
+website/
+├── 1 - index.html
+├── 2 - style.css
+└── 3 - script.js
+data/ (raw and cleaned datasets)
+notebook.ipynb
 
 ## 🚀 How to Run
 1. Install Python + Jupyter
-2. Open notebooks in order (1 → 2 → 3)
+2. Open notebook
 3. Run cells to see analysis
 
 ## 💡 Key Findings
