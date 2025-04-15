@@ -1,0 +1,218 @@
+:root {
+    --primary: #29535A;
+    --secondary: #AC6244;
+    --accent: #AC6244;
+    --text: #333;
+    --bg: #f9f9f9;
+    --light: #ffffff;
+    --dark: #29535A;
+    --section-spacing: 40px; /* Standardized spacing */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: var(--text);
+    background-color: var(--bg);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: var(--section-spacing);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-left: auto;
+    opacity: 0.9;
+}
+
+section {
+    padding: var(--section-spacing) 0;
+    margin-bottom: var(--section-spacing);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: var(--section-spacing);
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent);
+}
+
+.project {
+    background-color: var(--light);
+    padding: var(--section-spacing);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: var(--section-spacing);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: var(--secondary);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-description {
+    margin-bottom: var(--section-spacing);
+    background-color: var(--light);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--section-spacing);
+    margin-top: var(--section-spacing);
+}
+
+.team-member {
+    background-color: var(--light);
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.member-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    background-color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    margin: 0 auto 20px;
+}
+
+.member-name {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+
+.member-role {
+    color: var(--primary);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.contact-info a {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: var(--primary);
+}
+
+footer {
+    background-color: var(--dark);
+    color: white;
+    text-align: center;
+    padding: var(--section-spacing) 0;
+    margin-top: var(--section-spacing);
+}
+
+/* Animation Classes */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    section {
+        padding: var(--section-spacing) 0;
+        margin-bottom: var(--section-spacing);
+    }
+    
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}

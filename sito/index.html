@@ -6,262 +6,19 @@
     <title>Data Science Team Project</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-    <style>
-        :root {
-            --primary: #29535A;
-            --secondary: #AC6244;
-            --accent: #AC6244;
-            --text: #333;
-            --bg: #f9f9f9;
-            --light: #ffffff;
-            --dark: #29535A;
-        }
-        
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            color: var(--text);
-            background-color: var(--bg);
-            line-height: 1.6;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 100px 20px;
-            position: relative;
-            overflow: hidden;
-            text-align: right;
-            margin-bottom: 40px;
-            /* Added box shadow to header */
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-        }
-        
-        .header-content {
-            position: relative;
-            z-index: 2;
-            max-width: 700px;
-            margin-left: auto;
-        }
-        
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            letter-spacing: 1px;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        }
-        
-        header p {
-            font-size: 1.2rem;
-            margin-left: auto;
-            opacity: 0.9;
-        }
-        
-        .waves {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            /* Increased height of waves from 100px to 120px */
-            height: 120px;
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23f9f9f9" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,261.3C960,256,1056,224,1152,197.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        
-        section {
-            padding: 80px 0;
-            margin-bottom: 40px;
-        }
-        
-        #team {
-            padding-top: 100px;
-        }
-        
-        h2 {
-            font-size: 2rem;
-            color: var(--primary);
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        h2::after {
-            content: '';
-            position: absolute;
-            bottom: 0px;
-            left: 0;
-            width: 60px;
-            height: 4px;
-            background-color: var(--accent);
-        }
-        
-        .project {
-            background-color: var(--light);
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            background: var(--primary);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-right: 10px;
-            margin-top: 25px;
-            transition: all 0.3s ease;
-        }
-        
-        .btn:hover {
-            background: var(--secondary);
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .team-description {
-            margin-bottom: 40px;
-            background-color: var(--light);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 40px;
-            margin-top: 40px;
-        }
-        
-        .team-member {
-            background-color: var(--light);
-            padding: 35px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .team-member:hover {
-            transform: translateY(-10px);
-        }
-        
-        .member-img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
-            background-color: var(--accent);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            color: white;
-            margin: 0 auto 20px;
-        }
-        
-        .member-name {
-            font-size: 1.5rem;
-            color: var(--dark);
-            margin-bottom: 8px;
-        }
-        
-        .member-role {
-            color: var(--primary);
-            font-weight: 500;
-            margin-bottom: 20px;
-        }
-        
-        .contact-info {
-            margin-top: 20px;
-            font-size: 0.9rem;
-        }
-        
-        .contact-info a {
-            color: var(--secondary);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        
-        .contact-info a:hover {
-            color: var(--primary);
-        }
-        
-        footer {
-            background-color: var(--dark);
-            color: white;
-            text-align: center;
-            padding: 40px 0;
-            margin-top: 40px;
-        }
-        
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-            
-            header p {
-                font-size: 1rem;
-            }
-            
-            section {
-                padding: 60px 0;
-                margin-bottom: 30px;
-            }
-            
-            #team {
-                padding-top: 80px;
-            }
-            
-            .team-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .waves {
-                height: 80px; /* Smaller height for mobile devices */
-            }
-        }
-
-        /* Animation Classes */
-        .fade-in {
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
-        }
-        
-        .fade-in.active {
-            opacity: 1;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="header-content">
-            <h1 data-aos="fade-left" data-aos-duration="1000">Team DataScience7</h1>
-            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Exploring and visualizing data to solve real-world problems</p>
+            <h1 data-aos="fade-left" data-aos-duration="600">Team DataScience7</h1>
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Exploring and visualizing data to solve real-world problems</p>
         </div>
-        <div class="waves"></div>
     </header>
     
     <section id="project" class="container">
         <h2 data-aos="fade-right">Our Project</h2>
-        <div class="project" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false">
+        <div class="project" data-aos="zoom-in" data-aos-duration="600" data-aos-once="false">
             <h3>Data Analysis and Visualization</h3>
             <p>
                 Our team has developed a comprehensive data analysis project focusing on [Your Specific Topic]. 
@@ -282,8 +39,7 @@
     <section id="team" class="container">
         <h2 data-aos="fade-right" data-aos-once="false">Our Team</h2>
         
-        <!-- Added team description -->
-        <div class="team-description" data-aos="fade-up" data-aos-duration="800" data-aos-once="false">
+        <div class="team-description" data-aos="fade-up" data-aos-duration="600" data-aos-once="false">
             <h3>Meet the Experts Behind the Project</h3>
             <p>Our diverse team brings together specialists from various fields of data science, machine learning, and analytics. With a combined experience of over 30 years in the industry and academia, we tackle complex data challenges with innovative approaches. Each member contributes unique skills and perspectives that enhance our collective problem-solving capability.</p>
             <p>Together, we collaborate closely to ensure every aspect of the project meets the highest standards of accuracy, reliability, and usefulness. Our complementary expertise allows us to address the multifaceted nature of modern data science projects.</p>
@@ -291,7 +47,7 @@
         
         <div class="team-grid">
             <!-- Team Member 1 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 1</h3>
                 <p class="member-role">Data Scientist</p>
@@ -303,7 +59,7 @@
             </div>
             
             <!-- Team Member 2 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 2</h3>
                 <p class="member-role">Data Engineer</p>
@@ -315,7 +71,7 @@
             </div>
             
             <!-- Team Member 3 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 3</h3>
                 <p class="member-role">Visualization Specialist</p>
@@ -327,7 +83,7 @@
             </div>
             
             <!-- Team Member 4 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 4</h3>
                 <p class="member-role">Data Analyst</p>
@@ -339,7 +95,7 @@
             </div>
             
             <!-- Team Member 5 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 5</h3>
                 <p class="member-role">Machine Learning Engineer</p>
@@ -351,7 +107,7 @@
             </div>
             
             <!-- Team Member 6 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 6</h3>
                 <p class="member-role">Project Manager</p>
@@ -363,7 +119,7 @@
             </div>
             
             <!-- Team Member 7 -->
-            <div class="team-member" data-aos="fade-up" data-aos-duration="800" data-aos-delay="700" data-aos-once="false">
+            <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400" data-aos-once="false">
                 <div class="member-img">TM</div>
                 <h3 class="member-name">Team Member 7</h3>
                 <p class="member-role">Domain Expert</p>
@@ -382,32 +138,6 @@
         </div>
     </footer>
     
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Initialize AOS animation library
-            AOS.init({
-                duration: 800,
-                easing: 'ease-in-out',
-                once: false, // Changed from true to false to enable animations on scroll up/down
-                mirror: true // Added mirror: true to enable animations when scrolling back up
-            });
-            
-            // Initialize fade-in animations
-            const fadeElements = document.querySelectorAll('.fade-in');
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('active');
-                    } else {
-                        entry.target.classList.remove('active'); // Remove active class when not in view
-                    }
-                });
-            });
-            
-            fadeElements.forEach(element => {
-                observer.observe(element);
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
