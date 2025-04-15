@@ -23,6 +23,7 @@ We analyzed Tesisquare's data using Python to find business insights.
 ## 📂 Files
 
 project/  
+├── 📁 website/  
 ├── 📁 data/          # Raw/processed data  
 ├── 📁 notebooks/     # Jupyter notebooks  
 └── 📁 reports/       # infographics, pdfs and maps  
