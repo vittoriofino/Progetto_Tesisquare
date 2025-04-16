@@ -58,17 +58,8 @@ project/
    - Explore the PDF reports in the `reports` directory
 
 ## 💡 Key Findings & Business Impact
-- **Logistics Optimization**: Identified potential for 15% reduction in transportation costs through route optimization
-- **Inventory Management**: Developed predictive model with 87% accuracy for forecasting inventory needs
-- **Customer Segmentation**: Discovered 4 distinct customer profiles with unique service requirements
-- **Process Efficiency**: Pinpointed 3 critical bottlenecks in the supply chain workflow
-- **Market Analysis**: Mapped geographical patterns revealing untapped market opportunities in southeastern regions
 
 ## 🔄 Future Work
-- Implement real-time data processing pipeline
-- Develop interactive prediction tool for stakeholders
-- Expand analysis to include international operations
-- Integrate with Tesisquare's existing business intelligence systems
 
 ## 🙏 Acknowledgments
 Special thanks to Tesisquare for providing the dataset. We appreciate the guidance from our instructors at ITIS Mario Delpozzo who supported our analytical approach and methodology.
