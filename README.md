@@ -18,7 +18,7 @@ This collaborative project analyzes Tesisquare's supply chain data to uncover ac
 - **Languages**: Python
 - **Development**: Jupyter Notebooks, Git version control
 - **Data Processing**: pandas, NumPy
-- **Visualization**: matplotlib
+- **Visualization**: matplotlib, seaborn
 - **Machine Learning**: scikit-learn
 
 ## 📂 Project Structure
@@ -48,17 +48,12 @@ project/
    pip install -r requirements.txt
    ```
 
-2. **Data Preparation**:
-   ```bash
-   python scripts/prepare_data.py
-   ```
-
-3. **Run Analysis**:
+2. **Run Analysis**:
    ```bash
    jupyter notebook notebooks/01_data_cleaning.ipynb
    ```
 
-4. **View Results**:
+3. **View Results**:
    - Open `website/index.html` in a browser
    - Explore the PDF reports in the `reports` directory
 
