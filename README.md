@@ -3,13 +3,13 @@
 **Comprehensive Supply Chain Data Analysis & Visualization**
 
 ## 👥 Team Members
-- Vittorio Fino - Data Analysis & Modeling
-- Luca Grosso - Data Engineering & Processing
-- Beatrice Risso - Statistical Analysis & Reporting
-- Francesco Torterolo - Visualization & Dashboard Development
-- Lorenzo Bruno - Machine Learning Implementation
-- Rebecca Simondi - Business Intelligence & Insights
-- Viola Peruzzi - Project Management & Documentation
+- Vittorio Fino
+- Luca Grosso 
+- Beatrice Risso
+- Francesco Torterolo
+- Lorenzo Bruno
+- Rebecca Simondi
+- Viola Peruzzi
 
 ## 🎯 Project Overview
 This collaborative project analyzes Tesisquare's supply chain data to uncover actionable business insights, optimize logistics operations, and identify growth opportunities. Our analysis focuses on key performance indicators, customer behavior patterns, and operational efficiency metrics.
@@ -24,28 +24,26 @@ This collaborative project analyzes Tesisquare's supply chain data to uncover ac
 ## 📂 Project Structure
 ```
 project/
-├── 📁 website/             # Interactive dashboard for stakeholders
+├── 📁 website/             # Interactive dashboard
 │   ├── index.html          # Main dashboard page
 │   └── assets/             # CSS, JS, and static resources
 ├── 📁 data/                # Data files
 │   ├── raw/                # Original unmodified data
 │   └── processed/          # Cleaned and transformed datasets
-├── 📁 notebooks/           # Jupyter analysis notebooks
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   └── 04_modeling.ipynb
+├── 📁 notebooks/           # Jupyter analysis notebook
+│   └── notebook.ipynb
 ├── 📁 reports/             # Results and deliverables
 │   ├── final_report.pdf    # Comprehensive findings document
 │   ├── executive_summary.pdf  # Key insights for management
 │   └── visualizations/     # Generated charts and maps
+├── requirements.txt        # list of python libraries used in the project
 └── README.md               # Project documentation
 ```
 
 ## 🚀 Getting Started
 1. **Environment Setup**:
    ```bash
-   git clone https://github.com/username/tesisquare-analysis.git
+   git clone https://github.com/vittoriofino/tesisquare_analysis.git
    cd tesisquare-analysis
    pip install -r requirements.txt
    ```
