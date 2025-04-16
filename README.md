@@ -33,9 +33,6 @@ project/
 ├── 📁 notebooks/           # Jupyter analysis notebook
 │   └── notebook.ipynb
 ├── 📁 reports/             # Results and deliverables
-│   ├── final_report.pdf    # Comprehensive findings document
-│   ├── executive_summary.pdf  # Key insights for management
-│   └── visualizations/     # Generated charts and maps
 ├── requirements.txt        # list of python libraries used in the project
 └── README.md               # Project documentation
 ```
@@ -50,7 +47,7 @@ project/
 
 2. **Run Analysis**:
    ```bash
-   jupyter notebook notebooks/01_data_cleaning.ipynb
+   jupyter notebook notebooks/notebook.ipynb
    ```
 
 3. **View Results**:
