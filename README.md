@@ -78,7 +78,7 @@ project/
 - Integrate with Tesisquare's existing business intelligence systems
 
 ## 🙏 Acknowledgments
-Special thanks to Tesisquare for providing the dataset and valuable business context. We appreciate the guidance from our instructors at [University/Institution] who supported our analytical approach and methodology.
+Special thanks to Tesisquare for providing the dataset. We appreciate the guidance from our instructors at ITIS Mario Delpozzo who supported our analytical approach and methodology.
 
 ---
 © 2025 Tesisquare Data Analysis Team | For questions, contact: vittoriofino06@gmail.com
