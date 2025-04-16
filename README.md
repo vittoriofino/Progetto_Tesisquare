@@ -13,7 +13,6 @@
 
 ## 🎯 Project Overview
 
-## Introduction
 This project analyzes a dataset from Tesisquare to identify trends and optimization opportunities in logistics operations. The analysis focuses on delivery times, distances, and patterns across different service types.
 
 ## Dataset Overview
