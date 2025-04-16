@@ -94,9 +94,6 @@ For a Courier service from IT (62010) to IT (22100) departing on 2023-01-10:
 ## 📁 Project Structure
 ```
 project/
-├── 📁 website/             # Interactive dashboard
-│   ├── index.html          # Main dashboard page
-│   └── assets/             # CSS, JS, and static resources
 ├── 📁 data/                # Data files
 │   ├── raw/                # Original unmodified data
 │   └── processed/          # Cleaned and transformed datasets
@@ -121,7 +118,6 @@ project/
    ```
 
 3. **View Results**:
-   - Open `website/index.html` in a browser
    - Explore the PDF reports in the `reports` directory
 
 ## 👥 Team Members
