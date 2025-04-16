@@ -2,15 +2,6 @@
 
 **Comprehensive Supply Chain Data Analysis & Visualization**
 
-## 👥 Team Members
-- Vittorio Fino
-- Luca Grosso 
-- Beatrice Risso
-- Francesco Torterolo
-- Lorenzo Bruno
-- Rebecca Simondi
-- Viola Peruzzi
-
 ## 🎯 Project Overview
 
 This project analyzes a dataset from Tesisquare to identify trends and optimization opportunities in logistics operations. The analysis focuses on delivery times, distances, and patterns across different service types.
@@ -138,6 +129,15 @@ project/
 3. **View Results**:
    - Open `website/index.html` in a browser
    - Explore the PDF reports in the `reports` directory
+
+## 👥 Team Members
+- Vittorio Fino
+- Luca Grosso 
+- Beatrice Risso
+- Francesco Torterolo
+- Lorenzo Bruno
+- Rebecca Simondi
+- Viola Peruzzi
 
 ## 🙏 Acknowledgments
 Special thanks to Tesisquare for providing the dataset. We appreciate the guidance from our instructors at ITIS Mario Delpozzo who supported our analytical approach and methodology.

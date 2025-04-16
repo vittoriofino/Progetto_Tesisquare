@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Team Project</title>
+    <title>Tesisquare Data Analysis Project</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <link rel="stylesheet" href="./assets/style.css">
@@ -12,125 +12,247 @@
     <header>
         <div class="header-content">
             <h1 data-aos="fade-left" data-aos-duration="600">dataITIS</h1>
-            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Exploring and visualizing data to solve real-world problems</p>
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">Comprehensive Supply Chain Data Analysis & Visualization</p>
         </div>
     </header>
     
     <section id="project" class="container">
-        <h2 data-aos="fade-right">Our Project</h2>
+        <h2 data-aos="fade-right">Project Overview</h2>
         <div class="project" data-aos="zoom-in" data-aos-duration="600" data-aos-once="false">
-            <h3>Data Analysis and Visualization</h3>
+            <h3>Introduction</h3>
             <p>
-                Our team has developed a comprehensive data analysis project focusing on [Your Specific Topic]. 
-                We collected data from multiple sources, cleaned it, and performed explorative analysis to uncover meaningful patterns and insights. 
-                The project demonstrates various data visualization techniques and statistical methods to interpret complex datasets.
+                This project analyzes a dataset from Tesisquare to identify trends and optimization opportunities in logistics operations. 
+                The analysis focuses on delivery times, distances, and patterns across different service types.
             </p>
+            
+            <h3>Dataset Overview</h3>
             <p>
-                We utilized Jupyter notebooks for our analysis and Quarto for creating this interactive web page that showcases our results. 
-                The entire workflow is documented thoroughly to ensure reproducibility.
+                The original dataset contains 14,554 entries with 15 columns including:
             </p>
+            <ul>
+                <li>Service types (E-commerce, Courier, Road Transport)</li>
+                <li>Vehicle types</li>
+                <li>Origin and destination information (countries, ZIP codes)</li>
+                <li>Shipping details (dates, weights, volumes)</li>
+                <li>Delivery metrics (distance, time, day of week)</li>
+            </ul>
+            
+            <h3>Technologies Used</h3>
+            <ul>
+                <li><strong>Languages</strong>: Python</li>
+                <li><strong>Development</strong>: Jupyter Notebooks, Git version control</li>
+                <li><strong>Data Processing</strong>: pandas, NumPy</li>
+                <li><strong>Visualization</strong>: matplotlib, seaborn</li>
+                <li><strong>Machine Learning</strong>: scikit-learn</li>
+            </ul>
+            
             <div>
                 <a href="https://github.com/vittoriofino/tesisquare_analysis" class="btn" target="_blank">GitHub Repository</a>
-                <a href="notebook.html" class="btn" target="_blank">Project Notebook</a>
             </div>
         </div>
     </section>
     
     <section id="team" class="container">
-        <h2 data-aos="fade-right" data-aos-once="false">Our Team</h2>
-        
-        <div class="team-description" data-aos="fade-up" data-aos-duration="600" data-aos-once="false">
-            <h3>Meet the Experts Behind the Project</h3>
-            <p>Our diverse team brings together specialists from various fields of data science, machine learning, and analytics. With a combined experience of over 30 years in the industry and academia, we tackle complex data challenges with innovative approaches. Each member contributes unique skills and perspectives that enhance our collective problem-solving capability.</p>
-            <p>Together, we collaborate closely to ensure every aspect of the project meets the highest standards of accuracy, reliability, and usefulness. Our complementary expertise allows us to address the multifaceted nature of modern data science projects.</p>
-        </div>
+        <h2 data-aos="fade-right" data-aos-once="false">Team Members</h2>
         
         <div class="team-grid">
-            <!-- Team Member 1 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 1</h3>
-                <p>Specializes in statistical analysis and machine learning models. Responsible for feature engineering and model development.</p>
+                <div class="member-img">VF</div>
+                <h3 class="member-name">Vittorio Fino</h3>
                 <div class="contact-info">
-                    <p>Email: <a href="mailto:member1@example.com">member1@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member1" target="_blank">@member1</a></p>
+                    <p>Email: <a href="mailto:vittoriofino06@gmail.com">vittoriofino06@gmail.com</a></p>
                 </div>
             </div>
             
-            <!-- Team Member 2 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="150" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 2</h3>
-                <p>Expert in data pipeline development and database management. Handled data collection and preprocessing stages.</p>
-                <div class="contact-info">
-                    <p>Email: <a href="mailto:member2@example.com">member2@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member2" target="_blank">@member2</a></p>
-                </div>
+                <div class="member-img">LG</div>
+                <h3 class="member-name">Luca Grosso</h3>
             </div>
             
-            <!-- Team Member 3 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 3</h3>
-                <p>Focused on creating intuitive and informative data visualizations. Designed dashboards and interactive charts.</p>
-                <div class="contact-info">
-                    <p>Email: <a href="mailto:member3@example.com">member3@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member3" target="_blank">@member3</a></p>
-                </div>
+                <div class="member-img">BR</div>
+                <h3 class="member-name">Beatrice Risso</h3>
             </div>
             
-            <!-- Team Member 4 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="250" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 4</h3>
-                <p>Specialized in exploratory data analysis and statistical inference. Focused on extracting actionable insights.</p>
-                <div class="contact-info">
-                    <p>Email: <a href="mailto:member4@example.com">member4@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member4" target="_blank">@member4</a></p>
-                </div>
+                <div class="member-img">FT</div>
+                <h3 class="member-name">Francesco Torterolo</h3>
             </div>
             
-            <!-- Team Member 5 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 5</h3>
-                <p>Expert in deep learning and reinforcement learning algorithms. Developed predictive models for the project.</p>
-                <div class="contact-info">
-                    <p>Email: <a href="mailto:member5@example.com">member5@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member5" target="_blank">@member5</a></p>
-                </div>
+                <div class="member-img">LB</div>
+                <h3 class="member-name">Lorenzo Bruno</h3>
             </div>
             
-            <!-- Team Member 6 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="350" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 6</h3>
-                <p>Coordinated team efforts and ensured project milestones were met. Handled documentation and presentation materials.</p>
-                <div class="contact-info">
-                    <p>Email: <a href="mailto:member6@example.com">member6@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member6" target="_blank">@member6</a></p>
-                </div>
+                <div class="member-img">RS</div>
+                <h3 class="member-name">Rebecca Simondi</h3>
             </div>
             
-            <!-- Team Member 7 -->
             <div class="team-member" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400" data-aos-once="false">
-                <div class="member-img">TM</div>
-                <h3 class="member-name">Team Member 7</h3>
-                <p>Provided subject matter expertise to guide analysis and interpretation. Helped connect findings to real-world applications.</p>
-                <div class="contact-info">
-                    <p>Email: <a href="mailto:member7@example.com">member7@example.com</a></p>
-                    <p>GitHub: <a href="https://github.com/member7" target="_blank">@member7</a></p>
-                </div>
+                <div class="member-img">VP</div>
+                <h3 class="member-name">Viola Peruzzi</h3>
             </div>
+        </div>
+    </section>
+    
+    <section id="data-prep" class="container">
+        <h2 data-aos="fade-right">Data Preparation Process</h2>
+        
+        <div class="process-block" data-aos="fade-up" data-aos-duration="600">
+            <h3>Data Cleaning:</h3>
+            <ul>
+                <li>Handled missing values in SERVICETYPE and VEHICLETYPE using machine learning (RF classifier)</li>
+                <li>Filled missing DECLARED_DISTANCE_KM values using geographical coordinates</li>
+                <li>Corrected negative delivery times by swapping dates</li>
+                <li>Removed outliers for more accurate modeling</li>
+            </ul>
+        </div>
+        
+        <div class="process-block" data-aos="fade-up" data-aos-duration="600">
+            <h3>Data Segmentation:</h3>
+            <ul>
+                <li>Split data by service type:
+                    <ul>
+                        <li>E-commerce: 9,028 entries (62%)</li>
+                        <li>Express Couriers: 2,875 entries (20%)</li>
+                        <li>Road Transport: 1,863 entries (13%)</li>
+                    </ul>
+                </li>
+                <li>Split data by country pairs:
+                    <ul>
+                        <li>IT-IT: 11,755 entries (81%)</li>
+                        <li>US-US: 2,225 entries (15%)</li>
+                        <li>Mixed (IT-US/US-IT): 574 entries (4%)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="findings" class="container">
+        <h2 data-aos="fade-right">Key Findings</h2>
+        
+        <div class="findings-block" data-aos="fade-up" data-aos-duration="600">
+            <h3>Correlation Analysis</h3>
+            <p>The analysis revealed significant correlations between:</p>
+            <ul>
+                <li>Day of week (WDAY) and delivery time</li>
+                <li>Declared distance and delivery time</li>
+                <li>Weight metrics and volume</li>
+            </ul>
+        </div>
+        
+        <div class="findings-block" data-aos="fade-up" data-aos-duration="600">
+            <h3>Delivery Time Patterns</h3>
+            
+            <h4>Weekend Effect:</h4>
+            <ul>
+                <li>Shipments closer to weekends have longer delivery times</li>
+                <li>This effect is strongest for Courier and Road Transport services</li>
+            </ul>
+            
+            <h4>Service Type Comparison:</h4>
+            <ul>
+                <li>E-commerce: Maintains consistent delivery operations throughout the week</li>
+                <li>Road Transport: Shows significant increases in delivery time for Thursday and Friday shipments</li>
+                <li>Courier Services: Shows moderate increases for mid-week shipments</li>
+            </ul>
+            
+            <h4>Geographical Analysis:</h4>
+            <ul>
+                <li>Created visualizations showing delivery routes for different regions</li>
+                <li>Domestic deliveries (IT-IT, US-US) follow more predictable patterns than international ones</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="model" class="container">
+        <h2 data-aos="fade-right">Predictive Model Development</h2>
+        
+        <div class="model-block" data-aos="fade-up" data-aos-duration="600">
+            <p>A machine learning model was created to predict:</p>
+            <ul>
+                <li>Delivery distance based on origin and destination</li>
+                <li>Delivery time based on service type, vehicle type, and day of week</li>
+            </ul>
+            
+            <p>The model:</p>
+            <ul>
+                <li>Uses Gradient Boosting Regressor for both distance and time predictions</li>
+                <li>Accounts for weekend adjustments based on service type</li>
+                <li>Includes business logic for work hours and non-working days</li>
+                <li>Achieved 100% accuracy for distance prediction and 56% for time prediction</li>
+            </ul>
+            
+            <h3>Example Prediction</h3>
+            <p>For a Courier service from IT (62010) to IT (22100) departing on 2023-01-10:</p>
+            <ul>
+                <li>Predicted distance: 427.3 km</li>
+                <li>Predicted delivery time: 31 working hours (4 days)</li>
+                <li>Expected arrival date: 2023-01-16 (adjusted for weekend)</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="conclusions" class="container">
+        <h2 data-aos="fade-right">Conclusions</h2>
+        
+        <div class="conclusions-block" data-aos="fade-up" data-aos-duration="600">
+            <ol>
+                <li><strong>Service Type Impact</strong>: E-commerce services demonstrate the most consistent delivery performance, while Road Transport and Courier services show greater variability influenced by day of week.</li>
+                <li><strong>Weekend Effect</strong>: There is a clear pattern of increased delivery times for shipments scheduled close to weekends, with some service types not operating at all on weekends.</li>
+                <li><strong>Predictive Power</strong>: The model can accurately predict distances between ZIP codes, making it useful for route planning and optimization.</li>
+                <li><strong>Time Prediction Challenges</strong>: The moderate accuracy (56%) for time prediction suggests that factors beyond distance and service type impact delivery times, such as traffic conditions, warehouse operations, and staffing levels.</li>
+                <li><strong>Business Applications</strong>: This model could help logistics companies:
+                    <ul>
+                        <li>Optimize shipping schedules away from peak days</li>
+                        <li>Provide more accurate delivery estimates to customers</li>
+                        <li>Identify inefficient routes or service types</li>
+                        <li>Better plan staffing and resource allocation</li>
+                    </ul>
+                </li>
+                <li><strong>Model Limitations</strong>: The time prediction could be improved by incorporating more dynamic variables such as seasonal factors, regional traffic patterns, and handling times at distribution centers.</li>
+            </ol>
+            
+            <p>The analysis has successfully transformed raw shipping data into actionable insights that can improve customer satisfaction through more accurate delivery estimates and help optimize operational efficiency in logistics operations.</p>
         </div>
     </section>
     
     <footer>
         <div class="container">
-            <p>&copy; 2025 Team DataScience7. All rights reserved.</p>
+            <p>&copy; 2025 Tesisquare Data Analysis Team | For questions, contact: <a href="mailto:vittoriofino06@gmail.com">vittoriofino06@gmail.com</a></p>
+            <p>Special thanks to Tesisquare for providing the dataset. We appreciate the guidance from our instructors at ITIS Mario Delpozzo who supported our analytical approach and methodology.</p>
         </div>
     </footer>
     
-    <script src="./assets/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 600,
+                easing: 'ease-in-out',
+                once: false,
+                mirror: true
+            });
+            
+            const teamMembers = [
+                { initials: 'VF', name: 'Vittorio Fino' },
+                { initials: 'LG', name: 'Luca Grosso' },
+                { initials: 'BR', name: 'Beatrice Risso' },
+                { initials: 'FT', name: 'Francesco Torterolo' },
+                { initials: 'LB', name: 'Lorenzo Bruno' },
+                { initials: 'RS', name: 'Rebecca Simondi' },
+                { initials: 'VP', name: 'Viola Peruzzi' }
+            ];
+            
+            document.querySelectorAll('.member-img').forEach((avatar, index) => {
+                if (index < teamMembers.length) {
+                    const colors = ['#29535A', '#AC6244', '#3A7379', '#C97855', '#1D3B40', '#8F4E33'];
+                    const colorIndex = index % colors.length;
+                    avatar.style.backgroundColor = colors[colorIndex];
+                }
+            });
+        });
+    </script>
 </body>
 </html>
