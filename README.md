@@ -126,7 +126,7 @@ project/
 - Beatrice Risso
 - Francesco Torterolo
 - Lorenzo Bruno
-- Rebecca Simondi
+- [Rebecca Simondi](https://github.com/sbeb4) 
 - Viola Peruzzi
 
 ## 🙏 Acknowledgments
