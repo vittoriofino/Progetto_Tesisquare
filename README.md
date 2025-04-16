@@ -1,12 +1,10 @@
-# Tesisquare Data Analysis Project
-
-**Comprehensive Supply Chain Data Analysis & Visualization**
+# 📊 Tesisquare Data Analysis Project
 
 ## 🎯 Project Overview
 
 This project analyzes a dataset from Tesisquare to identify trends and optimization opportunities in logistics operations. The analysis focuses on delivery times, distances, and patterns across different service types.
 
-## Dataset Overview
+## 📋 Dataset Overview
 The original dataset contains 14,554 entries with 15 columns including:
 
 - Service types (E-commerce, Courier, Road Transport)
@@ -15,7 +13,7 @@ The original dataset contains 14,554 entries with 15 columns including:
 - Shipping details (dates, weights, volumes)
 - Delivery metrics (distance, time, day of week)
 
-## Data Preparation Process
+## 🧹 Data Preparation Process
 
 ### Data Cleaning:
 - Handled missing values in SERVICETYPE and VEHICLETYPE using machine learning (RF classifier)
@@ -34,7 +32,7 @@ The original dataset contains 14,554 entries with 15 columns including:
   - US-US: 2,225 entries (15%)
   - Mixed (IT-US/US-IT): 574 entries (4%)
 
-## Key Findings
+## 🔍 Key Findings
 
 ### Correlation Analysis
 The analysis revealed significant correlations between:
@@ -42,7 +40,7 @@ The analysis revealed significant correlations between:
 - Declared distance and delivery time
 - Weight metrics and volume
 
-### Delivery Time Patterns
+### 📈 Delivery Time Patterns
 
 #### Weekend Effect:
 - Shipments closer to weekends have longer delivery times
@@ -57,7 +55,7 @@ The analysis revealed significant correlations between:
 - Created visualizations showing delivery routes for different regions
 - Domestic deliveries (IT-IT, US-US) follow more predictable patterns than international ones
 
-## Predictive Model Development
+## 🤖 Predictive Model Development
 A machine learning model was created to predict:
 - Delivery distance based on origin and destination
 - Delivery time based on service type, vehicle type, and day of week
@@ -74,21 +72,17 @@ For a Courier service from IT (62010) to IT (22100) departing on 2023-01-10:
 - Predicted delivery time: 31 working hours (4 days)
 - Expected arrival date: 2023-01-16 (adjusted for weekend)
 
-## Conclusions
+## 💡 Conclusions
 
 1. **Service Type Impact**: E-commerce services demonstrate the most consistent delivery performance, while Road Transport and Courier services show greater variability influenced by day of week.
 2. **Weekend Effect**: There is a clear pattern of increased delivery times for shipments scheduled close to weekends, with some service types not operating at all on weekends.
 3. **Predictive Power**: The model can accurately predict distances between ZIP codes, making it useful for route planning and optimization.
-4. **Time Prediction Challenges**: The moderate accuracy (56%) for time prediction suggests that factors beyond distance and service type impact delivery times, such as traffic conditions, warehouse operations, and staffing levels.
+4. **Time Prediction Challenges**: The moderate accuracy (56%) for time prediction suggests that factors beyond distance and service type impact delivery times.
 5. **Business Applications**: This model could help logistics companies:
    - Optimize shipping schedules away from peak days
    - Provide more accurate delivery estimates to customers
    - Identify inefficient routes or service types
    - Better plan staffing and resource allocation
-
-6. **Model Limitations**: The time prediction could be improved by incorporating more dynamic variables such as seasonal factors, regional traffic patterns, and handling times at distribution centers.
-
-The analysis has successfully transformed raw shipping data into actionable insights that can improve customer satisfaction through more accurate delivery estimates and help optimize operational efficiency in logistics operations.
 
 ## 🔧 Technologies & Methods
 - **Languages**: Python
@@ -97,7 +91,7 @@ The analysis has successfully transformed raw shipping data into actionable insi
 - **Visualization**: matplotlib, seaborn
 - **Machine Learning**: scikit-learn
 
-## 📂 Project Structure
+## 📁 Project Structure
 ```
 project/
 ├── 📁 website/             # Interactive dashboard
@@ -143,4 +137,4 @@ project/
 Special thanks to Tesisquare for providing the dataset. We appreciate the guidance from our instructors at ITIS Mario Delpozzo who supported our analytical approach and methodology.
 
 ---
-© 2025 Tesisquare Data Analysis Team | For questions, contact: vittoriofino06@gmail.com
+© 2025 Tesisquare Data Analysis Team | Contact: vittoriofino06@gmail.com
