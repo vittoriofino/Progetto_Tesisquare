@@ -121,8 +121,8 @@ project/
    - Explore the PDF reports in the `reports` directory
 
 ## 👥 Team Members
-- [Vittorio Fino] (https://github.com/vittoriofino)
-- [Luca Grosso] (https://github.com/TheBigSource) 
+- [Vittorio Fino](https://github.com/vittoriofino)
+- [Luca Grosso](https://github.com/TheBigSource) 
 - Beatrice Risso
 - Francesco Torterolo
 - Lorenzo Bruno
