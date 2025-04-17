@@ -127,8 +127,7 @@ project/
 - Francesco Torterolo
 - Lorenzo Bruno
 - [Rebecca Simondi](https://github.com/sbeb4) 
-- Viola Peruzzi
-
+- [Viola Peruzzi](https://github.com/violly08)
 ## 🙏 Acknowledgments
 Special thanks to Tesisquare for providing the dataset. We appreciate the guidance from our instructors at ITIS Mario Delpozzo who supported our analytical approach and methodology.
 
